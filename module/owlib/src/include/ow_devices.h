@@ -54,6 +54,7 @@
 #include "ow_infernoembedded.h" // Inferno Embedded meta driver
 #include "ow_interface.h"		// interface pseudo-device
 #include "ow_lcd.h"				// LCD driver
+#include "ow_moat.h"		    // AVR-based devices
 #include "ow_simultaneous.h"	// fake entry to address entire directory
 #include "ow_stats.h"			// statistic reporting pseudo-device
 #include "ow_settings.h"		// settings pseudo-device
