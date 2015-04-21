@@ -29,6 +29,11 @@
 *.trs
 *.log
 
+# built man pages
+src/man/man1/*.1
+src/man/man3/*.3
+
+# everything else
 /blib/
 /.build/
 _build/
@@ -47,13 +52,13 @@ config.status
 *.log
 /Makefile.old
 /MANIFEST.bak
-/META.yml
-/META.json
+META.yml
+META.json
 /MYMETA.*
 nytprof.out
 /pm_to_blib
-*.o
 *.bs
+module/ownet/python/build/
 
 *.in
 .deps/
